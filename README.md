@@ -4,6 +4,18 @@
 
 The AI Guardian for Content Integrity is a Python project that embodies the principles of Responsible AI. This project focuses on the detection of fake news using Natural Language Processing (NLP) techniques. Rigorous Exploratory Data Analysis (EDA) is conducted to understand the dataset's structure, and a slight imbalance is addressed using a smoothing technique. The preprocessing steps involve punctuation removal, feature selection, lowercase conversion, whitespace tokenization, removal of short tokens, stopword removal, and lemmatization. The resulting clean text is utilized for vectorization.
 
+## Setup
+
+To get started with the AI Guardian, make sure you have the necessary dependencies installed. Follow the steps below:
+
+```bash
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+pip install shap
+pip install lime
+```
+
 ## Step 1: Data Loading
 
 ### Load Text Data
