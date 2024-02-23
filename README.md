@@ -8,12 +8,13 @@ The AI Guardian for Content Integrity is a Python project that embodies the prin
 
 To get started with the AI Guardian, make sure you have the necessary dependencies installed. Follow the steps below:
 
+```bash
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 pip install shap
 pip install lime
-
+```
 
 ## Transparency and Accountability
 
